@@ -1,0 +1,49 @@
+body{background-color:#BEB8AC;}
+.left{
+	background-color: #3E3F42;
+	text-transform: capitalize;
+}
+
+.cut{
+	clip-path: polygon(0 0, 100% 0%, 0 100%, 0% 100%);
+	background-color: aqua;
+
+}
+.name{
+	text-align: center;
+	color: #FFF;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+h1 span{
+	display: block;
+	color: #2FB7FE;
+}
+.job{
+	text-align: center;
+	color: #FFF;
+	font-size: 10px;
+}
+.topic{
+	color: #FFF;
+	margin-left: 65px;
+	text-transform: uppercase;
+}
+img{
+	border-radius: 50%;
+	border: 10px solid #B9DCF7;
+	z-index: auto;
+}
+.hr1{
+	background-color: #FFF;
+	width: 50%;
+}
+.menu {
+	list-style: none;
+	color: #FFF;
+	margin-left: 30px;
+}
+.right{
+	background-color: #FFF;
+}
+/*media*/
