@@ -18,6 +18,7 @@ body {
 	top: -1px;
 	left: 0px;
 	content: " ";
+	animation: move 3s 1s infinite;
 }
 .name {
 	text-align: center;
@@ -87,7 +88,71 @@ a {
 .tw:hover {
 	color: #1DA1F3;
 }
-
+@keyframes move{
+	0%{
+		 background-color:#000000;
+	}
+	5%{
+		 background-color: #1a1a00;
+	}
+	10%{
+		 background-color:#333300;
+	}
+	15%{
+		 background-color: #4d4d00;
+	}
+	20%{
+		 background-color: #666600;
+	}
+	25%{
+		 background-color: #808000;
+	}
+	30%{
+		 background-color:#999900;
+	}
+	35%{
+		 background-color:#b3b300;
+	}
+	40%{
+		 background-color: #cccc00;
+	}
+	45%{
+		 background-color:#e6e600;
+	}
+	50%{
+		 background-color:#ffff00;
+	}
+	55%{
+		 background-color:#ffff1a;
+	}
+	60%{
+		 background-color:#ffff33;
+	}
+	65%{
+		 background-color:#ffff4d;
+	}
+	70%{
+		 background-color: #ffff66;
+	}
+	75%{
+		 background-color:#ffff80;
+	}
+	80%{
+		 background-color:#ffff99;
+	}
+	85%{
+		 background-color:#ffffb3;
+	}
+	90%{
+		 background-color:#ffffcc;
+	}
+	95%{
+		 background-color:#ffffe6;
+	}
+	100%{
+		 background-color:#FFF;
+	}
+}
 /*media left side*/
 
 @media only screen and (device-width:320px) {
