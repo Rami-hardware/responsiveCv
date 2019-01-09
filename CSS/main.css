@@ -18,7 +18,7 @@ body {
 	top: -1px;
 	left: 0px;
 	content: " ";
-	animation: move 3s 1s infinite;
+	animation: move 3s 0s infinite;
 }
 .name {
 	text-align: center;
@@ -512,4 +512,19 @@ a {
 	.ma {
 		margin-top: 25px;
 	}
+}
+@media print{
+	.topic{
+		margin:30px;
+	}
+}
+
+/* Scrooll bar */
+
+::-webkit-scrollbar{
+	background-color: white;
+}
+::-webkit-scrollbar-thumb{
+	background-color: gray;
+	border-radius: 20px
 }
