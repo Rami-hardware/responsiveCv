@@ -412,7 +412,7 @@ a {
 		margin-top: 18px !important;
 	}
 	.stickyBtn {
-		top: 380px !important;
+		top: 416px !important;
 		left: 262px !important;
 		z-index: 1;
 	}
@@ -439,7 +439,7 @@ a {
 		margin-top: 18px !important;
 	}
 	.stickyBtn {
-		top: 380px !important;
+		top: 545px !important;
 		left: 317px !important;
 		z-index: 1;
 	}
@@ -466,8 +466,8 @@ a {
 		margin-top: 18px !important;
 	}
 	.stickyBtn {
-		top: 380px !important;
-		left: 317px !important;
+		top: 528px !important;
+		left: 302px !important;
 		z-index: 1;
 	}
 }
@@ -493,8 +493,8 @@ a {
 		margin-top: 18px !important;
 	}
 	.stickyBtn {
-		top: 380px !important;
-		left: 317px !important;
+		top: 566px !important;
+		left: 326px !important;
 		z-index: 1;
 	}
 }
@@ -520,8 +520,8 @@ a {
 		margin-top: 18px !important;
 	}
 	.stickyBtn {
-		top: 380px !important;
-		left: 317px !important;
+		top: 558px !important;
+		left: 356px !important;
 		z-index: 1;
 	}
 }
@@ -544,8 +544,8 @@ a {
 		margin-top: 18px !important;
 	}
 	.stickyBtn {
-		top: 380px !important;
-		left: 317px !important;
+		top: 540px !important;
+		left: 354px !important;
 		z-index: 1;
 	}
 }
@@ -568,8 +568,8 @@ a {
 		margin-top: 18px !important;
 	}
 	.stickyBtn {
-		top: 380px !important;
-		left: 317px !important;
+		top: 541px !important;
+		left: 353px !important;
 		z-index: 1;
 	}
 }
@@ -592,7 +592,7 @@ a {
 		margin-top: 18px !important;
 	}
 	.stickyBtn {
-		top: 380px !important;
+		top: 545px !important;
 		left: 367px !important;
 		z-index: 1;
 	}
@@ -615,7 +615,7 @@ a {
 		margin-left: 5px !important;
 		margin-top: 18px !important;
 	}
-		.stickyBtn {
+	.stickyBtn {
 		top: 380px !important;
 		left: 367px !important;
 		z-index: 1;
@@ -639,9 +639,9 @@ a {
 		margin-left: 5px !important;
 		margin-top: 18px !important;
 	}
-		.stickyBtn {
-		top: 380px !important;
-		left: 367px !important;
+	.stickyBtn {
+		top: 567px  !important;
+		left: 541px !important;
 		z-index: 1;
 	}
 }
@@ -663,9 +663,33 @@ a {
 		margin-left: 5px !important;
 		margin-top: 18px !important;
 	}
-		.stickyBtn {
-		top: 380px !important;
+	.stickyBtn {
+		top: 545px !important;
 		left: 709px !important;
+		z-index: 1;
+	}
+}
+@media only screen and (device-width:800px) {
+	.hr-icon {
+		width: 85%;
+	}
+	.mar > .t {
+		margin-top: 50px;
+	}
+	.ma {
+		margin-top: 25px;
+	}
+	.Time {
+		margin-left: 5px !important;
+		margin-top: 18px !important;
+	}
+	.date {
+		margin-left: 5px !important;
+		margin-top: 18px !important;
+	}
+	.stickyBtn {
+		top: 545px !important;
+		left: 968px !important;
 		z-index: 1;
 	}
 }
@@ -687,10 +711,13 @@ a {
 		margin-left: 5px !important;
 		margin-top: 18px !important;
 	}
-		.stickyBtn {
-		top: 380px !important;
-		left: 968px !important;
-		z-index: 1;
+	.stickyBtn {
+		display: none;
+	}
+}
+@media only screen and (device-width:1440px) {
+	.stickyBtn {
+	display: none;
 	}
 }
 
