@@ -366,8 +366,8 @@ a {
 .bg-js {
 	background-color: #E7A328;
 }
-.bg-php {
-	background-color: #4F5B93;
+.bg-node {
+	background-color: #26FF00;
 }
 .bg-boot {
 	background-color: #563D7C;
@@ -375,6 +375,7 @@ a {
 .bg-found {
 	background-color: #21A6C9;
 }
+
 .ps > p {
 	margin: 0px;
 }
