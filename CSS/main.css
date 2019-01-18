@@ -755,3 +755,6 @@ a {
 	color: #FFFF;
 	transition: 0.2s;
 }
+.stickyBtn:focus{
+	background-color: red;
+}
