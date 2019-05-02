@@ -13,6 +13,10 @@ body {
 	position: relative;
 }
 .cut {
+	-o-polygon(0 0, 100% 0%, 0 100%, 0% 100%);
+	-ms-clip-path: polygon(0 0, 100% 0%, 0 100%, 0% 100%);
+	-webkit-clip-path: polygon(0 0, 100% 0%, 0 100%, 0% 100%);
+	-moz-clip-path: polygon(0 0, 100% 0%, 0 100%, 0% 100%);
 	clip-path: polygon(0 0, 100% 0%, 0 100%, 0% 100%);
 	background-color: #2FB7FE;
 	position: absolute;
@@ -373,7 +377,7 @@ a {
 	background-color: #563D7C;
 }
 .bg-found {
-	background-color: #21A6C9;
+	background-color: yellow;
 }
 
 .ps > p {
@@ -757,5 +761,6 @@ a {
 	transition: 0.2s;
 }
 .stickyBtn:focus{
-	background-color: red;
+	background-color:white;
+	color: black;
 }
