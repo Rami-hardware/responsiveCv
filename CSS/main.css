@@ -6,6 +6,7 @@ body {
     background-color: #BEB8AC;
 }
 
+
 /*left side*/
 
 .left {
@@ -115,89 +116,51 @@ a {
 
 @keyframes move {
     0% {
-        background-color: #000000;
+        background: rgb(255, 53, 126);
+        background: linear-gradient(0deg, rgba(255, 53, 126, 1) 0%, rgba(0, 0, 0, 1) 100%);
     }
-
-    5% {
-        background-color: #1a1a00;
-    }
-
     10% {
-        background-color: #333300;
+        background: rgb(255, 196, 0);
+        background: linear-gradient(0deg, rgba(255, 196, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
     }
-
-    15% {
-        background-color: #4d4d00;
-    }
-
     20% {
-        background-color: #666600;
+        background: rgb(154, 53, 255);
+        background: linear-gradient(0deg, rgba(154, 53, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
     }
-
-    25% {
-        background-color: #808000;
-    }
-
     30% {
-        background-color: #999900;
+        background: rgb(194, 255, 0);
+        background: linear-gradient(0deg, rgba(194, 255, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
     }
-
-    35% {
-        background-color: #b3b300;
-    }
-
     40% {
-        background-color: #cccc00;
+        background: rgb(0, 255, 34);
+        background: linear-gradient(0deg, rgba(0, 255, 34, 1) 0%, rgba(0, 0, 0, 1) 100%);
     }
-
-    45% {
-        background-color: #e6e600;
-    }
-
     50% {
-        background-color: #ffff00;
+        background: rgb(53, 255, 117);
+        background: linear-gradient(0deg, rgba(53, 255, 117, 1) 0%, rgba(0, 0, 0, 1) 100%);
     }
-
-    55% {
-        background-color: #ffff1a;
-    }
-
     60% {
-        background-color: #ffff33;
+        background: rgb(0, 185, 255);
+        background: linear-gradient(0deg, rgba(0, 185, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
     }
-
-    65% {
-        background-color: #ffff4d;
-    }
-
     70% {
-        background-color: #ffff66;
+        background: rgb(255, 165, 53);
+        background: linear-gradient(0deg, rgba(255, 165, 53, 1) 0%, rgba(0, 0, 0, 1) 100%);
     }
-
-    75% {
-        background-color: #ffff80;
-    }
-
     80% {
-        background-color: #ffff99;
+        background: rgb(111, 0, 255);
+        background: linear-gradient(0deg, rgba(111, 0, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
     }
-
-    85% {
-        background-color: #ffffb3;
-    }
-
     90% {
-        background-color: #ffffcc;
+        background: rgb(255, 0, 91);
+        background: linear-gradient(0deg, rgba(255, 0, 91, 1) 0%, rgba(0, 0, 0, 1) 100%);
     }
-
-    95% {
-        background-color: #ffffe6;
-    }
-
     100% {
-        background-color: #FFF;
+        background: rgb(255, 0, 0);
+        background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
     }
 }
+
 
 /*media left side*/
 
@@ -211,11 +174,9 @@ a {
     .cut {
         width: 375px;
     }
-
     .topic {
         margin-left: 90px;
     }
-
     .menu li {
         display: block;
         margin-bottom: 20px;
@@ -227,11 +188,9 @@ a {
     .cut {
         width: 375px;
     }
-
     .topic {
         margin-left: 90px;
     }
-
     .menu li {
         display: block;
         margin-bottom: 20px;
@@ -243,11 +202,9 @@ a {
     .cut {
         width: 375px;
     }
-
     .topic {
         margin-left: 90px;
     }
-
     .menu li {
         display: block;
         margin-bottom: 20px;
@@ -259,11 +216,9 @@ a {
     .cut {
         width: 375px;
     }
-
     .topic {
         margin-left: 90px;
     }
-
     .menu li {
         display: block;
         margin-bottom: 20px;
@@ -275,11 +230,9 @@ a {
     .cut {
         width: 375px;
     }
-
     .topic {
         margin-left: 90px;
     }
-
     .menu li {
         display: block;
         margin-bottom: 20px;
@@ -291,22 +244,18 @@ a {
     .cut {
         width: 425px;
     }
-
     .topic {
         margin-left: 105px;
     }
-
     .menu li {
         display: block;
         margin-bottom: 20px;
         margin-left: 30px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
@@ -317,11 +266,9 @@ a {
     .cut {
         width: 425px;
     }
-
     .topic {
         margin-left: 105px;
     }
-
     .menu li {
         display: block;
         margin-bottom: 20px;
@@ -333,11 +280,9 @@ a {
     .cut {
         width: 425px;
     }
-
     .topic {
         margin-left: 105px;
     }
-
     .menu li {
         display: block;
         margin-bottom: 20px;
@@ -349,11 +294,9 @@ a {
     .cut {
         width: 425px;
     }
-
     .topic {
         margin-left: 130px;
     }
-
     .menu li {
         display: block;
         margin-bottom: 20px;
@@ -365,11 +308,9 @@ a {
     .cut {
         width: 725px;
     }
-
     .topic {
         margin-left: 180px;
     }
-
     .menu li {
         display: block;
         margin-bottom: 20px;
@@ -381,11 +322,9 @@ a {
     .cut {
         width: 725px;
     }
-
     .topic {
         margin-left: 180px;
     }
-
     .menu li {
         display: block;
         margin-bottom: 20px;
@@ -397,17 +336,16 @@ a {
     .cut {
         width: 240px;
     }
-
     .menu li {
         display: block;
         margin-bottom: 10px;
         margin-left: -24px;
     }
-
     .job {
         font-size: 17px;
     }
 }
+
 
 /*right side*/
 
@@ -425,7 +363,7 @@ a {
     margin-top: 10px;
 }
 
-.marg > h1 {
+.marg>h1 {
     margin-left: 50px;
     margin-top: -50px;
 }
@@ -440,7 +378,7 @@ a {
     margin-bottom: 0px;
 }
 
-.col-lg-3 > p {
+.col-lg-3>p {
     margin: 0;
 }
 
@@ -449,7 +387,8 @@ a {
 }
 
 .bg-html {
-    background-color: #E54C21;
+    background: rgb(229, 77, 38);
+    background: linear-gradient(90deg, rgba(229, 77, 38, 1) 79%, rgba(239, 102, 47, 1) 90%, rgba(255, 255, 255, 1) 100%);
 }
 
 .bg-js {
@@ -461,22 +400,46 @@ a {
 }
 
 .bg-boot {
-    background-color: #563D7C;
+    background: rgb(85, 58, 125);
+    background: linear-gradient(90deg, rgba(85, 58, 125, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 .bg-found {
     background-color: orange;
 }
 
-.ps > p {
+.bg-web {
+    background-color: #1C78C0;
+}
+
+.bg-mo {
+    background-color: #8D6748;
+}
+
+.bg-vue {
+    background: rgb(49, 71, 80);
+    background: linear-gradient(90deg, rgba(49, 71, 80, 1) 0%, rgba(65, 184, 131, 1) 100%);
+}
+
+.bg-scss {
+    background: rgb(204, 102, 144);
+    background: linear-gradient(90deg, rgba(204, 102, 144, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.bg-jq {
+    background: rgb(9, 9, 121);
+    background: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.ps>p {
     margin: 0px;
 }
 
-.me > i {
+.me>i {
     margin-left: 50px;
 }
 
-.mar > .t {
+.mar>.t {
     margin-top: 70px;
 }
 
@@ -484,35 +447,30 @@ a {
     margin-top: 45px;
 }
 
+
 /*media right side*/
 
 @media only screen and (device-width:320px) {
     .hr-icon {
         width: 75%;
     }
-
-    .mar > .t {
+    .mar>.t {
         margin-top: 20px;
     }
-
     .ma {
         margin-top: 70px;
     }
-
     .pad {
         padding: 10px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .stickyBtn {
         top: 416px !important;
         left: 262px !important;
@@ -524,29 +482,23 @@ a {
     .hr-icon {
         width: 75%;
     }
-
-    .mar > .t {
+    .mar>.t {
         margin-top: 15px;
     }
-
     .ma {
         margin-top: 25px;
     }
-
     .pad {
         padding: 10px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .stickyBtn {
         top: 545px !important;
         left: 317px !important;
@@ -558,29 +510,23 @@ a {
     .hr-icon {
         width: 75%;
     }
-
-    .mar > .t {
+    .mar>.t {
         margin-top: 15px;
     }
-
     .ma {
         margin-top: 25px;
     }
-
     .pad {
         padding: 10px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .stickyBtn {
         top: 528px !important;
         left: 302px !important;
@@ -592,29 +538,23 @@ a {
     .hr-icon {
         width: 75%;
     }
-
-    .mar > .t {
+    .mar>.t {
         margin-top: 15px;
     }
-
     .ma {
         margin-top: 25px;
     }
-
     .pad {
         padding: 10px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .stickyBtn {
         top: 566px !important;
         left: 326px !important;
@@ -626,29 +566,23 @@ a {
     .hr-icon {
         width: 75%;
     }
-
-    .mar > .t {
+    .mar>.t {
         margin-top: 15px;
     }
-
     .ma {
         margin-top: 25px;
     }
-
     .pad {
         padding: 10px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .stickyBtn {
         top: 558px !important;
         left: 356px !important;
@@ -660,25 +594,20 @@ a {
     .hr-icon {
         width: 85%;
     }
-
-    .mar > .t {
+    .mar>.t {
         margin-top: 20px;
     }
-
     .ma {
         margin-top: 25px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .stickyBtn {
         top: 540px !important;
         left: 354px !important;
@@ -690,25 +619,20 @@ a {
     .hr-icon {
         width: 85%;
     }
-
-    .mar > .t {
+    .mar>.t {
         margin-top: 20px;
     }
-
     .ma {
         margin-top: 25px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .stickyBtn {
         top: 541px !important;
         left: 353px !important;
@@ -720,25 +644,20 @@ a {
     .hr-icon {
         width: 85%;
     }
-
-    .mar > .t {
+    .mar>.t {
         margin-top: 20px;
     }
-
     .ma {
         margin-top: 25px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .stickyBtn {
         top: 545px !important;
         left: 367px !important;
@@ -750,25 +669,20 @@ a {
     .hr-icon {
         width: 85%;
     }
-
-    .mar > .t {
+    .mar>.t {
         margin-top: 20px;
     }
-
     .ma {
         margin-top: 25px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .stickyBtn {
         top: 380px !important;
         left: 367px !important;
@@ -780,25 +694,20 @@ a {
     .hr-icon {
         width: 85%;
     }
-
-    .mar > .t {
+    .mar>.t {
         margin-top: 20px;
     }
-
     .ma {
         margin-top: 25px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .stickyBtn {
         top: 567px !important;
         left: 541px !important;
@@ -810,25 +719,20 @@ a {
     .hr-icon {
         width: 85%;
     }
-
-    .mar > .t {
+    .mar>.t {
         margin-top: 20px;
     }
-
     .ma {
         margin-top: 25px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .stickyBtn {
         top: 545px !important;
         left: 709px !important;
@@ -840,25 +744,20 @@ a {
     .hr-icon {
         width: 85%;
     }
-
-    .mar > .t {
+    .mar>.t {
         margin-top: 50px;
     }
-
     .ma {
         margin-top: 25px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .stickyBtn {
         top: 545px !important;
         left: 968px !important;
@@ -870,25 +769,20 @@ a {
     .hr-icon {
         width: 85%;
     }
-
-    .mar > .t {
+    .mar>.t {
         margin-top: 50px;
     }
-
     .ma {
         margin-top: 25px;
     }
-
     .Time {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .date {
         margin-left: 5px !important;
         margin-top: 18px !important;
     }
-
     .stickyBtn {
         display: none;
     }
@@ -899,6 +793,7 @@ a {
         display: none;
     }
 }
+
 
 /* Scrooll bar */
 
